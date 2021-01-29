@@ -14,7 +14,7 @@ Clone the repository into your local machine using HTTPS or SSH.
 
 <img alt="git clone ssh" src="git_clone.png" width="600">  
 
-### Step 2:  Git Status/ Add/ Commit
+### Step 2: Git Status/ Add/ Commit
 
 Before creating a new branch, you have to do the following steps.  
 
@@ -27,7 +27,7 @@ Before creating a new branch, you have to do the following steps.
 3. `git commit -m "commit_message"` (to confirm the changes with a commit message.)  
 <img alt="git clone ssh" src="git_commit.png" width="700">  
 
-### Step 3:  Git Branch
+### Step 3: Git Branch
 
 Create a branch. Give the branch name something related to the feature you will work on or a bug supposed to be fixed. 
 For example, `user_login_screen` or `login_error_fix`.  
@@ -48,7 +48,7 @@ Note: You cannot checkout of a branch without commiting first.
 Now you have made changes in one of the branches, and you have to push it to Github.  
 `git push origin branch_name`  
 
-### Step 5: Github Pull Request  
+### Step 5 A: Github Auto pull Request  
 
 After pushing your `branch_name` to github, now you will see the green `Compare & pull request` button on Github.  
 <img alt="git clone ssh" src="github_compare_pull_request.png" width="700">  
@@ -61,6 +61,14 @@ And merge pull requests.
 
 Now, it is successuflly merged and you can delete the branch if you wish afterwards.  
 <img alt="git clone ssh" src="github_delete_branch.png" width="700">  
+
+### Step 5 B: Github Manual Pull Request  
+
+You can go to `Pull requests` tab of your repo, and click `New` button.  
+<img alt="git clone ssh" src="github_manual_pr.png" width="300">  
+
+Choose the branch you want to merge into your `main` branch.  
+<img alt="git clone ssh" src="github_comparing_changes.png" width="600">  
 
 ### Step 6: Git Pull  
 
