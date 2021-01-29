@@ -4,7 +4,7 @@ A new Flutter application.
 
 ## Making Contribution
 
-### Step 1: Git Clone  
+### Step 1: Git Clone
 
 Clone the repository into your local machine using HTTPS or SSH.
 
@@ -14,25 +14,32 @@ Clone the repository into your local machine using HTTPS or SSH.
 
 <img alt="git clone ssh" src="git_clone.png" width="600">  
 
-### Step 2:  Git Status/ Add/ Commit  
+### Step 2:  Git Status/ Add/ Commit
 
 Before creating a new branch, you have to do the following steps.  
+
 1. `git status` (to see the changes.)  
 <img alt="git clone ssh" src="git_status.png" width="600">  
 
-2. `git add .`  (to add the changes to a stage.)  
-<img alt="git clone ssh" src="git_add.png" width="500">  
+2. `git add .` (to add the changes to a stage.)  
+<img alt="git clone ssh" src="git_add.png" width="400">  
 
-3. `git commit -m "commit_message"`  (to confirm the changes with a commit message.)  
+3. `git commit -m "commit_message"` (to confirm the changes with a commit message.)  
 <img alt="git clone ssh" src="git_commit.png" width="700">  
 
-### Step 3:  Git Branch  
+### Step 3:  Git Branch
 
-Create a branch. Give the branch name something related to the feature you will work on or a bug supposed to be fixed. For example, `user_login_screen` or `login_error_fix`.  
+Create a branch. Give the branch name something related to the feature you will work on or a bug supposed to be fixed.  
+For example, `user_login_screen` or `login_error_fix`.  
 
-`git checkout -b "branch_name"`
+1. `git checkout -b branch_name` (To create a new branch.)  
+<img alt="git clone ssh" src="git_checkout.png" width="500">  
 
+2. `git branch` (To see branches you have.)  
+<img alt="git clone ssh" src="git_branch.png" width="150">  
 
+3. `git checkout main` (To switch back to main branch)  
+<img alt="git clone ssh" src="git_checkout_main.png" width="400">  
 
 ## Getting Started
 
