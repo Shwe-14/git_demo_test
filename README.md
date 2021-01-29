@@ -50,12 +50,41 @@ Now you have made changes in one of the branches, and you have to push it to Git
 
 ### Step 5: Github Pull Request  
 
-After pushing your `branch_name` to github, now you have to do change branchin Github UI.  
+After pushing your `branch_name` to github, now you will see the green `Compare & pull request` button on Github.  
+<img alt="git clone ssh" src="github_compare_pull_request.png" width="700">  
+
+And you will have to do the following steps. Start with creating pull request.  
+<img alt="git clone ssh" src="github_open_pr.png" width="700">  
+
+And merge pull requests.  
+<img alt="git clone ssh" src="github_more_steps.png" width="700">  
+
+Now, it is successuflly merged and you can delete the branch if you wish afterwards.  
+<img alt="git clone ssh" src="github_delete_branch.png" width="700">  
 
 ### Step 6: Git Pull  
 
-Now your newly created `branch_name` is updated, and you need to merge with `main` branch.  
+Now your `main` branch and newly created `branch_name` branch are merged into `main` branch in Github, but your `main` branch in local machine is not updated yet.  
+So you have pull main branch by running the command below.  
 `git pull origin main`  
+
+### TL;DR  
+
+1. create a new branch  
+2. make changes in there  
+3. push the new branch to github  
+4. merge the new branch and the main branch  
+5. pull the main branch back into your local  
+
+OR (if your main branch has been updated by other contributors or members)
+
+1. create a new branch  
+2. make changes in there  
+3. pull the main branch into your new branch  
+4. solve the merge conflict if there's any  
+5. push the new branch to github  
+6. merge the new branch and the main branch  
+7. pull the main branch back into your local  
 
 ## Getting Started
 
