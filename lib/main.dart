@@ -30,6 +30,12 @@ class RandomWordsState extends State<RandomWords> {
     );
   }
 
+  void this_is_for_nothing_function()
+  {
+    print('This is for nothing.');
+
+  }
+
   Widget _buildSuggestions() {
     return ListView.builder(
         padding: const EdgeInsets.all(16.0),
