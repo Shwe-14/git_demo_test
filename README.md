@@ -29,7 +29,7 @@ Before creating a new branch, you have to do the following steps.
 
 ### Step 3:  Git Branch
 
-Create a branch. Give the branch name something related to the feature you will work on or a bug supposed to be fixed.  
+Create a branch. Give the branch name something related to the feature you will work on or a bug supposed to be fixed. 
 For example, `user_login_screen` or `login_error_fix`.  
 
 1. `git checkout -b branch_name` (To create a new branch.)  
@@ -40,6 +40,22 @@ For example, `user_login_screen` or `login_error_fix`.
 
 3. `git checkout main` (To switch back to main branch)  
 <img alt="git clone ssh" src="git_checkout_main.png" width="400">  
+
+Note: You cannot checkout of a branch without commiting first.  
+
+### Step 4: Git Push  
+
+Now you have made changes in one of the branches, and you have to push it to Github.  
+`git push origin branch_name`  
+
+### Step 5: Github Pull Request  
+
+After pushing your `branch_name` to github, now you have to do change branchin Github UI.  
+
+### Step 6: Git Pull  
+
+Now your newly created `branch_name` is updated, and you need to merge with `main` branch.  
+`git pull origin main`  
 
 ## Getting Started
 
